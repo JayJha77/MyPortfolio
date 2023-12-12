@@ -69,12 +69,12 @@ body {
 }
 
 #jobTitle{
-  animation: blinker 6s linear infinite;
+  animation: blinker 5s linear infinite;
 }
 
 @keyframes blinker {
   70%{
-    opacity: .2;
+    opacity: .4;
   }
 }
 
@@ -232,8 +232,10 @@ img {
 .home-social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--second-color);
+  font-size: 1.9rem;
+}
+.home-social-icon:hover{
+  color: orange;
 }
 .home-social-icon:hover,
 .footer-icon:hover {
@@ -278,7 +280,7 @@ section.about {
 }
 .about-img img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -287,6 +289,9 @@ section.about {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
+}
+.email:hover{
+  color: orange;
 }
 
 
@@ -304,6 +309,11 @@ section.about {
   margin-bottom: var(--mb-4);
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   transition: 1s ease;
+
+}
+.education-data:hover{
+  background-color: orange;
+
 }
 
 
@@ -347,15 +357,16 @@ section.about {
 .skills-container {
   row-gap: 2rem;
   text-align: center;
+  justify-content: center;
+ 
 }
-
-
 
 .skills-subtitle {
   margin-bottom: var(--mb-2);
 }
 .skills-text {
   margin-bottom: var(--mb-4);
+  
 }
 .skills-data {
   display: flex;
@@ -363,12 +374,15 @@ section.about {
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   transition: 1s ease;
   cursor: pointer;
+}
+.skills-data:hover{
+  background-color: orange;
 }
 
 .skills-icon {
@@ -475,10 +489,10 @@ img.man-icons {
   font-weight: 400;
   margin: 1rem;
 }
-.project-btns {
+/* .project-btns {
   position: absolute;
   bottom: 0;
-}
+} */
 
 /* ===== CONTACT =====*/
 .contact-input {
