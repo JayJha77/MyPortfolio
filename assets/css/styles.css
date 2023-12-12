@@ -140,7 +140,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -160,7 +160,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color:rgb(255, 255, 255);
     transition: 0.5s;
   }
 }
@@ -169,7 +169,7 @@ img {
 }
 .nav-link {
   position: relative;
-  color: #fff;
+  color: black;
 }
 .nav-link:hover {
   position: relative;
@@ -189,7 +189,7 @@ img {
   width: 3rem;
 }
 .nav-toggle {
-  color: var(--second-color);
+  color: var(--first-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
