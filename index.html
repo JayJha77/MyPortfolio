@@ -60,7 +60,8 @@
       <div class="home-data">
         <h2 class="home-title">
           Hi 👋,<br />I'am <span class="home-title-color">Jay Jha</span><br />
-         <span id="jobTitle" >Web Developer</span> 
+         <!-- <span id="jobTitle" >Web Developer</span>  -->
+         <span id="jobTitle"></span>
         </h2>
 
         <a href="" target="_blank"
@@ -164,10 +165,10 @@
               <img class="skills-icon" src="./assets/img/python.gif" alt="" />
               <span class="skills-name">PYTHON</span>
             </div>
-            <!-- <div class="skills-bar skills-css"></div> 
+            <div class="skills-bar skills-python"></div> 
             <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
+                <span class="skills-percentage"></span>
+              </div> 
           </div>
 
           <div class="skills-data">
@@ -175,10 +176,10 @@
               <img class="skills-icon" src="./assets/img/sql.png" alt="" />
               <span class="skills-name">SQL</span>
             </div>
-            <!-- <div class="skills-bar skills-css"></div> 
+            <div class="skills-bar skills-python"></div> 
             <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
+                <span class="skills-percentage"></span>
+              </div> 
           </div>
 
           <div class="skills-data">
@@ -186,10 +187,10 @@
               <img class="skills-icon"  src="./assets/img/excel.png" alt="" />
               <span class="skills-name" >EXCEL</span>
             </div>
-            <!-- <div class="skills-bar skills-css"></div> 
+            <div class="skills-bar skills-excel"></div> 
             <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
+                <span class="skills-percentage"></span>
+              </div> 
           </div>
 
 
@@ -201,40 +202,40 @@
               <i class="bx bxl-html5 skills-icon"></i>
               <span class="skills-name">HTML</span>
             </div>
-            <!-- <div class="skills-bar skills-html"></div> 
+            <div class="skills-bar skills-html"></div> 
              <div>
-                <span class="skills-percentage">75%</span>
-              </div>  -->
+                <span class="skills-percentage"></span>
+              </div> 
           </div>
           <div class="skills-data">
             <div class="skills-names">
               <i class="bx bxl-css3 skills-icon"></i>
               <span class="skills-name">CSS</span>
             </div>
-             <!-- <div class="skills-bar skills-css"></div>  -->
-            <!-- <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
+             <div class="skills-bar skills-css"></div> 
+            <div>
+                <span class="skills-percentage"> </span>
+              </div> 
           </div>
           <div class="skills-data">
             <div class="skills-names">
               <img class="skills-icon"  src="./assets/img/flask.png" alt="" />
               <span class="skills-name">FLASK</span>
             </div>
-            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div class="skills-bar skills-css"></div> 
             <div>
-                <!-- <span class="skills-percentage">70%</span> -->
+                <span class="skills-percentage"></span>
               </div> 
 
           </div>
           <div class="skills-data">
             <div class="skills-names">
-              <i class="bx bxl-react skills-icon"></i>
-              <span class="skills-name">React</span>
+              <img class="skills-icon"  src="./assets/img/js.png" alt="" />
+              <span class="skills-name">JavaScript</span>
             </div>
-            <!-- <div class="skills-bar skills-react"></div> -->
+            <div class="skills-bar skills-react"></div>
             <div>
-                <!-- <span class="skills-percentage">50%</span> -->
+                <span class="skills-percentage"></span>
               </div>
           </div>
 
@@ -245,9 +246,9 @@
                 <img class="skills-icon" src="./assets/img/ds.png" alt="" />
                 <span class="skills-name">Data Science</span>
               </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
+              <div class="skills-bar skills-css"></div> 
               <div>
-                  <!-- <span class="skills-percentage">70%</span> -->
+                  <span class="skills-percentage"></span>
                 </div> 
             </div>
 
@@ -288,7 +289,7 @@
       <div class="project-container">
         <div class="project-img">
           <img src="assets/img/whatapp.png" alt="cult.fit" />
-          <p class="project-title">WhatsApp Chatbot For Stock Market</p>
+          <p class="project-title">Stock Market Chatbot</p>
           <p class="project-subtitle">
             Developed a real time whatsapp chatbot Which takes the symbol of a
 stock as input & brings the current price,volume of the stock.
@@ -491,6 +492,15 @@ and analyze large datasets efficiently.
 
   <!--===== MAIN JS =====-->
   <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#jobTitle', {
+      strings: ['Frontend Developer','Data Analyst'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
 </body>
 
 </html>
