@@ -266,7 +266,7 @@ img {
 
 /* ===== ABOUT =====*/
 section.about {
-  padding: 20vh 15px;
+  padding: 10vh 15px;
 }
 .about-container {
   row-gap: 2rem;
@@ -287,7 +287,7 @@ section.about {
 .about-img img:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 1s ease;
 }
 .email_id:hover{
@@ -420,19 +420,22 @@ img.man-icons {
 }
 
 .skills-python {
-  width: 90%;
+  width: 100%;
 }
 .skills-html {
-  width: 90%;
+  width: 100%;
 }
 .skills-css {
-  width: 80%;
+  width: 100%;
 }
 .skills-excel{
-  width: 85%;
+  width: 100%;
 }
-.skills-react{
-  width: 40%;
+.skills-javascript{
+  width: 100%;
+}
+.skills-dsa{
+  width: 100%;
 }
 
 
@@ -598,7 +601,7 @@ img.man-icons {
     text-align: initial;
   }
   .about-img img {
-    width: 300px;
+    width: 200px;
   }
   .project-container {
     grid-template-columns: repeat(2, 1fr);
