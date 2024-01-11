@@ -57,7 +57,7 @@ copy.addEventListener("click", () => {
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",
-  distance: "80px",
+  distance: "100px",
   duration: 1500,
   reset: true,
 });
@@ -73,7 +73,7 @@ sr.reveal(".about-img", {});
 sr.reveal(".about-subtitle", { delay: 50 });
 sr.reveal(".about-text", { delay: 50 });
 
-/*SCROLL SKILLS*/
+// /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
 sr.reveal(".skills-data", { interval: 100 });

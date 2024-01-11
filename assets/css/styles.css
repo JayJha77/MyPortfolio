@@ -70,6 +70,7 @@ body {
 
 #jobTitle{
   animation: blinker 5s linear infinite;
+
 }
 
 @keyframes blinker {
@@ -226,13 +227,14 @@ img {
   color: var(--first-color);
 }
 .home-social {
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
 .home-social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 .home-social-icon:hover{
   color: orange;
@@ -279,8 +281,8 @@ section.about {
   justify-self: center;
 }
 .about-img img {
-  width: 200px;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
@@ -298,10 +300,9 @@ section.about {
 /* ===== EDUCATION =====*/
 
 .education-data{
-  /* border:1px solid red; */
-  
-  /* justify-content: space-between;
-  align-items: center; */
+  border:1px solid red;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
@@ -356,6 +357,7 @@ section.about {
 /* ===== SKILLS =====*/
 .skills-container {
   row-gap: 2rem;
+  display: flex;
   text-align: center;
   justify-content: center;
  
@@ -369,6 +371,7 @@ section.about {
   
 }
 .skills-data {
+  border:1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -623,5 +626,20 @@ img.man-icons {
   }
   .home-img {
     right: 10%;
+  }
+  .skills-data {
+    border:1px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 1rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    transition: 1s ease;
+    cursor: pointer;
   }
 }
