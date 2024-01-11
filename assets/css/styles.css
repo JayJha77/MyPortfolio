@@ -227,7 +227,6 @@ img {
   color: var(--first-color);
 }
 .home-social {
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
 }
