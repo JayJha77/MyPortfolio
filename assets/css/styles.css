@@ -245,7 +245,7 @@ img {
 }
 
 /* .home-title-color {
-  color: var(--first-color);
+  color: var(--first-color);z
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Animated-Flag-India.gif);
   background-size: 50% auto;
   -webkit-background-clip: text;
