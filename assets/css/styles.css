@@ -244,7 +244,7 @@ img {
   margin-bottom: var(--mb-5);
 }
 
-.home-title-color {
+/* .home-title-color {
   color: var(--first-color);
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Animated-Flag-India.gif);
   background-size: 50% auto;
@@ -252,7 +252,7 @@ img {
   color: transparent;
   animation: alternate 20s alternate infinite;
 
-}
+} */
 
 @keyframes alternate {
   from {
@@ -330,7 +330,7 @@ section.about {
 
 .about-img img {
   width: 150px;
-  border-radius: 30px;
+  border-radius:50%;
   cursor: pointer;
 }
 
