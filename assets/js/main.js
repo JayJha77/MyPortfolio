@@ -80,7 +80,8 @@ sr.reveal(".skills-data", { interval: 100 });
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
-sr.reveal(".project-img", { interval: 100 });
+sr.reveal(".project-img", { interval: 500 });
+sr.reveal(".project-img", { delay: 200 })
 
 /*SCROLL CONTACT*/
   // sr.reveal(".contact-input", { interval: 200 });
